@@ -1,0 +1,60 @@
+body {
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover; 
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#floating-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+.container {
+    background: linear-gradient(#022b5eff, rgb(7, 7, 78), #010007);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px rgba(114, 112, 112, 0.877);
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"] {
+    background: rgb(9, 69, 143);
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ff00aa91;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0062;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#error-message {
+    color: red;
+    font-size: 14px;
+}

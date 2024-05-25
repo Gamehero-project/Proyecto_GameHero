@@ -1,0 +1,15 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    background: linear-gradient(#022b5eff, rgb(7, 7, 78), #010007);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 95vh;
+}

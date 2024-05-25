@@ -1,0 +1,492 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #022b5e;
+
+  font-family: "Montserrat", sans-serif;
+}
+   
+
+.navbar_container a img {
+    max-width: 100px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-right: 320px;
+}
+/* este es el navbar */
+.navbar {
+    background-color:#fcc657;
+    height: 80px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+    top: 0; 
+    z-index: 999; 
+}
+.navbar_container {
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+
+}
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.navbar_item {
+    height: 80px;   
+}
+/* estos son los links del navbar */
+.navbar_links {
+    color: #ffff;
+    background-color: #ff0844;
+    border-radius: 0%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    text-decoration: none;
+   margin-top: 24px;
+   margin-bottom: 12px;
+   margin-left: 12px;
+   margin-right: 12px;
+   padding: 10px;
+   font-weight: bolder;
+ 
+}
+/* este es el menu drop */
+.dropbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff0844;
+    border-radius: 0%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    text-decoration: none;
+   margin-top: 24px;
+   margin-bottom: 12px;
+   margin-left: 12px;
+   margin-right: 12px;
+   padding: 10px;
+   font-weight: bolder;
+   font-size: 1.2rem;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff0844;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #ffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #23c3fd;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #fcc657;
+  }
+.navbar_btn {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    width:100%;
+    margin-top: 24px;
+    
+}
+.button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #f77862;
+    color: #ffff;
+
+}
+.button:hover {
+    background: #4837ff;
+    transition:all 0.3s ease;
+}
+.navbar_links:hover{
+    color:#f77062;
+    transition: all 0.3s ease;
+}
+/* barra de busqueda */
+.search {
+    width: max-content;
+    display: flex;
+    align-items: right;
+    border-radius: 30px;
+    padding: 14px;
+    border-style:solid;
+    border-color: #fcc657;
+    margin-top: 14px;
+    text-align: center;
+    margin-left: 55%;
+}
+.search-input {
+     font-size: 16px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     border: none;
+     outline: none;
+     background: transparent;
+     align-items: left;
+     justify-items: right;
+}
+.tittle {
+    color: #ff0844;
+    font-weight: bold;
+    margin-left: 148px;
+}
+/* este primer div de top de la semana */
+.linea-azul{
+    height: 6px;
+    width: 582px;
+    background-color: #23c3fd;
+    border: none;
+    margin-left: 148px ;
+    margin-top: 24px;
+}
+.topdelasemana {
+    display: flex;
+    margin-right: 730px;
+    margin-left: 148px;
+}
+/* este es el parrafo de doom */
+.parrafo {
+    color: #ffff;
+    font-size: 20px;
+   
+}
+.yellow-text {
+    color: #fcc657;
+}
+/* imagen doom */
+.imagendedoom {
+    width: 400px;
+    display: flex;
+    justify-content: right;
+    float: right;
+    margin-right: 180px;
+    margin-bottom: 24px;
+    padding: 0%;
+    mask: linear-gradient(-160deg, transparent, rgba(111, 59, 231, 0.849) 30%, rgba(162, 101, 231, 0.767) 80%, transparent);
+}
+.buttons{  
+    border-radius: 0%;
+    display:inline-flex;
+    align-items: center;    
+    justify-content: center;
+    text-decoration: none;
+  
+}
+.jugar {
+    display: flex;
+    background-color: #fcc657;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    width: 125px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-left: 148px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 0px;
+}
+.jugar:hover {
+    background-color: #23c3fd;
+    transition: all 0.3s;
+    
+}
+
+.teaser {
+    display: flex; 
+    background-color: #ff0844;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    width: 125px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 24px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold; 
+}
+.teaser:hover {
+    background-color: #23c3fd;
+    transition: all 0.3s;
+}
+
+/*  segundo div warzone */
+.warzone{
+    margin-top: 20px;
+    align-items: right;
+}
+.warzoneimage{
+    width: 300px;
+    display: flex;
+    justify-content: left;
+    float: left;
+    margin-left: 240px;
+    margin-bottom: 24px;
+    padding: 0%;
+    mask: linear-gradient(-160deg, transparent, rgba(111, 59, 231, 0.849) 20%, rgba(162, 101, 231, 0.767) 80%, transparent);
+}
+.linearoja {
+    height: 6px;
+    width: 582px;
+    background-color: #ff0844;
+    border: none;
+    margin-right: 138px ;
+    margin-top: 0;
+    display: flex;
+}
+
+.parrafowarzo{
+    display: flex;
+    margin-left: 724px;
+    margin-right: 144px;
+    text-align: right;
+}
+.parrafowarzone{
+    color: #ffff;
+    font-size: 20px;
+
+}
+.buttons2 {
+    border-radius: 0%;
+    display:inline-flex;
+    align-items: center;    
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.jugar2 {
+    display: flex;
+    margin-left: 748px;
+    background-color: #fcc657;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    width: 125px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.jugar2:hover {
+    background-color: #23c3fd;
+    transition: all 0.3s;
+}
+.teaser2 {
+    display: flex; 
+    background-color: #ff0844;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    width: 125px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 24px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;    
+    
+}
+.teaser2:hover {
+    background-color: #23c3fd;
+    transition: all 0.3s;
+}
+.assasiancreed {
+    display: flex;
+    margin-right: 730px;
+    margin-left: 148px;
+    display: flex;
+   
+}
+.lineazul{
+    height: 6px;
+    width: 582px;
+    background-color: #23c3fd;
+    border: none;
+    margin-left: 148px ;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.assa-parrafo {
+    color: #ffff;
+    font-size: 20px;
+}
+ .assasinimage {
+    margin-top: 28px;
+    width: 300px;
+   display: flex;
+   justify-content: right;
+   float: right;
+   margin-right: 250px;
+   mask: linear-gradient(-170deg, transparent, rgba(111, 59, 231, 0.849) 30%, rgba(162, 101, 231, 0.767) 80%, transparent);
+} 
+.tusjuegosfavoritos {
+    display: flex;
+    margin-right: 730px;
+    margin-left: 148px;
+    margin-top: 24px;    
+}
+.juegosfav{
+    display: inline-flex;
+}
+.grandtheft{
+    width: 760px;
+    height: 462px;
+    display: inline-flex;
+}
+.batman {
+    width: 760px;
+    height: 462px;
+    display: inline-flex;  
+}
+.devil {
+    width: 760px;
+    height: 462px;
+    display: inline-flex;
+}
+/* carrusel */
+ .carrusel {
+   max-width: 1100px;
+    display: flex;
+   margin-left: 148px;
+   overflow-x: hidden;
+   overflow-y: hidden;
+   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+   
+ }
+ .carrusel_item img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    padding: 30px 0;
+   
+ }
+.carrusel_item:hover {
+   transform: scale(1.2); 
+}
+
+/* footer */
+.footer{
+    background-color:#fcc657;
+    height: 130px;
+    width: 1440px;
+    position: relative;
+    top: 0; 
+    z-index: 999; 
+}
+#footer{
+    background-color: #fcc657;
+    width: 1440px;
+    height: 100px;
+}
+.footercontenedor {
+ display: flex;
+   justify-content:center; 
+   text-align: start;
+   
+}
+
+.list ul li {
+list-style: none;
+color: #ffff;
+
+}
+.list ul li a{
+    color: #ffff;
+    
+    }
+a {
+    text-decoration: none;
+}
+.list ul li a:hover {
+    color: #ff0844;
+    transition: all 0.3s ease;
+}
+.redes {
+    justify-content: center;
+    text-align: center;
+    margin: 0 24px;
+    padding: 10px 24px;
+}
+.redes p {
+    color: #ff0844;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.redes a i{
+    color: #23c3fd;
+    font-size: 32px;
+    padding: 0 10px;
+}
+.redes a i:hover {
+    color: #022b5e;
+    transition: all 0.3s ease-out;
+
+}
+.reserved{
+    justify-content: center;
+    display: flex;
+    margin: 0 24px;
+    
+}
+.reserved img{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 44px;
+    height: 22px;
+    margin-bottom: 4px;
+    margin-top: 40px;
+    padding: 4px;
+}
+.reserved h5{
+    color: #ff0844;
+    margin-top: 44px;
+}
